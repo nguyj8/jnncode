@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    box-sizing: border-box; 
+}
+
+.about
+{
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.about img
+{
+    height: 580px;
+    width: 440px; 
+}
+
+.about-text
+{
+    width: 550px; 
+}
+
+.aboutme
+{
+    width: 1130px; 
+    max-width: 95%;
+    margin: 0 auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2
+{
+    color: #191919;
+    font-size: 18px; 
+    text-transform: capitalize; 
+    margin-bottom: 20px; 
+}
+
+.about-text h5
+{
+    color: #191919;
+    font-size: 16px; 
+    text-transform: capitalize; 
+    margin-bottom: 25px; 
+    letter-spacing: 2px;
+}
+
+span
+{
+    color: #ECA72C;
+}
+
+.about-text p
+{
+    color: #191919;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
