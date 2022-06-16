@@ -29,22 +29,22 @@
 #index-gallery .img1 
 {
     grid-area: img1;
-    background-image: url("/background-home.jpeg");
+
     font-size: 60px;
     color: #221E22;
 } 
 #index-gallery .img2
 {
     grid-area: img2;
-    background-image: url("/background-home.jpeg");
+   
     font-size: 60px;
-    color: #221E22
+    color: #221E22;
 } 
 #index-gallery .img3
 {
     grid-area: img3;
-    background-image: url("/background-home.jpeg");
-    height: 850px;;
+    background-image: url("");
+    height: 850px;
     font-size: 60px;
     color: #221E22;
 } 
