@@ -1,7 +1,7 @@
 *
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
 }
@@ -10,7 +10,6 @@
 {
     width: 100%;
     height: 100vh; 
-    background-image: url("");
     display: flex; 
     align-items: center;
     justify-content: center;

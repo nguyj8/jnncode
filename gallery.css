@@ -4,9 +4,10 @@
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    grid-template-areas: 
-    "img1 img2 img3 img4"
-    "img1 img2 img3 img4";
+    grid-template-areas:
+    "img1 img2 img3"
+    "img1 img2 img3"
+    "img4 img4 img4";
 }
 
 #index-gallery .gallery-img 
@@ -29,25 +30,33 @@
 #index-gallery .img1 
 {
     grid-area: img1;
-
-    font-size: 60px;
+    height: 850px;
+    font-size: 30px;
     color: #221E22;
 } 
 #index-gallery .img2
 {
     grid-area: img2;
-   
-    font-size: 60px;
+    height: 850px;
+    font-size: 30px;
     color: #221E22;
 } 
 #index-gallery .img3
 {
     grid-area: img3;
-    background-image: url("");
     height: 850px;
-    font-size: 60px;
+    font-size: 30px;
     color: #221E22;
 } 
+#index-gallery .img4
+{
+    grid-area: img4;
+    background-image: url("/jnncode_ascii.jpg");
+    height: 100px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
